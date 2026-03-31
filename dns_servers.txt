@@ -1,0 +1,232 @@
+# DNS Speed Test — Server List
+# Format: IP, Provider, Category
+# Lines starting with # are comments and will be ignored.
+# Categories: Global | US-East | Gaming | Iran
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  GLOBAL DNS PROVIDERS
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Cloudflare — Anycast, Ashburn VA PoP (excellent for US-East gaming)
+1.1.1.1, Cloudflare, Global
+1.0.0.1, Cloudflare, Global
+
+# Google Public DNS — Global Anycast, very low latency
+8.8.8.8, Google, Global
+8.8.4.4, Google, Global
+
+# Quad9 — Security-focused, global Anycast
+9.9.9.9, Quad9, Global
+149.112.112.112, Quad9, Global
+
+# OpenDNS (Cisco) — Reliable, fast US routing
+208.67.222.222, OpenDNS, Global
+208.67.220.220, OpenDNS, Global
+
+# AdGuard DNS — Ad-blocking, global Anycast
+94.140.14.14, AdGuard, Global
+94.140.15.15, AdGuard, Global
+
+# AdGuard DNS (Alternate)
+176.103.130.130, AdGuard Alt, Global
+176.103.130.131, AdGuard Alt, Global
+
+# Alternate DNS
+76.76.19.19, Alternate DNS, Global
+76.223.122.150, Alternate DNS, Global
+
+# CleanBrowsing — Family-safe DNS
+185.228.168.168, CleanBrowsing, Global
+185.228.169.168, CleanBrowsing, Global
+
+# DNS.WATCH — Privacy-focused, no logging
+84.200.69.80, DNS.WATCH, Global
+84.200.70.40, DNS.WATCH, Global
+
+# Level3 / Lumen — Backbone provider, very fast in US
+4.2.2.1, Level3 / Lumen, Global
+4.2.2.2, Level3 / Lumen, Global
+4.2.2.3, Level3 / Lumen, Global
+4.2.2.4, Level3 / Lumen, Global
+
+# Verisign Public DNS — Stable, secure
+64.6.64.6, Verisign, Global
+64.6.65.6, Verisign, Global
+
+# Yandex DNS
+77.88.8.8, Yandex, Global
+77.88.8.1, Yandex, Global
+
+# Yandex Safe DNS
+77.88.8.2, Yandex Safe, Global
+77.88.8.3, Yandex Safe, Global
+
+# Freenom World
+80.80.80.80, Freenom, Global
+80.80.81.81, Freenom, Global
+
+# Norton ConnectSafe
+199.85.126.10, Norton, Global
+199.85.127.10, Norton, Global
+
+# Neustar UltraDNS — Headquartered in Sterling, Virginia
+156.154.70.1, Neustar (Sterling VA), Global
+156.154.71.1, Neustar (Sterling VA), Global
+
+# NextDNS — Customizable, privacy-first
+45.90.28.0, NextDNS, Global
+45.90.30.0, NextDNS, Global
+
+# Mullvad DNS — Privacy, no-log, Sweden
+194.242.2.2, Mullvad, Global
+194.242.2.3, Mullvad, Global
+
+# Comodo Secure DNS
+8.26.56.26, Comodo, Global
+8.20.247.20, Comodo, Global
+
+# SafeDNS
+195.46.39.39, SafeDNS, Global
+195.46.39.40, SafeDNS, Global
+
+# Hurricane Electric — Fremont CA, strong US backbone
+74.82.42.42, Hurricane Electric, Global
+
+# dns0.eu — European anycast
+193.110.81.0, dns0.eu, Global
+185.253.5.0, dns0.eu, Global
+
+# DNS.SB — Anycast, no logging
+185.222.222.222, DNS.SB, Global
+45.11.45.11, DNS.SB, Global
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  US-EAST / VIRGINIA DNS SERVERS
+#  Best for gaming on East Coast US servers (AWS us-east-1, etc.)
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Comcast / Xfinity — Anycast, strong US-East presence
+75.75.75.75, Comcast Xfinity, US-East
+75.75.76.76, Comcast Xfinity, US-East
+
+# Cox Communications — Virginia Beach / Hampton Roads
+68.87.85.98, Cox (VA Beach), US-East
+68.87.68.168, Cox (Hampton), US-East
+
+# Spectrum / Charter — East Coast nodes
+209.18.47.61, Spectrum East, US-East
+209.18.47.62, Spectrum East, US-East
+
+# Verizon FiOS — Eastern US
+71.242.0.12, Verizon FiOS East, US-East
+71.252.0.12, Verizon FiOS East, US-East
+
+# AT&T — US-East resolver
+68.94.156.1, AT&T US-East, US-East
+68.94.157.1, AT&T US-East, US-East
+
+# Lumen / CenturyLink — US-East infrastructure
+205.171.3.65, Lumen US-East, US-East
+205.171.2.65, Lumen US-East, US-East
+
+# Windstream — Southeast / Mid-Atlantic US
+38.132.106.139, Windstream East, US-East
+198.206.14.241, Windstream Alt, US-East
+
+# Lumos Networks — Virginia-based ISP
+208.115.120.1, Lumos (Virginia), US-East
+208.115.120.2, Lumos (Virginia), US-East
+
+# RCN — Virginia / DC Metro corridor
+24.197.138.74, RCN (Virginia), US-East
+24.197.228.3, RCN (Virginia), US-East
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  GAMING-OPTIMIZED DNS SERVERS
+#  Tuned for low latency, minimal filtering, fast resolution
+# ══════════════════════════════════════════════════════════════════════════════
+
+# ControlD — Gaming/performance profile, Anycast
+76.76.2.0, ControlD, Gaming
+76.76.10.0, ControlD, Gaming
+
+# ControlD Secure — Gaming with malware blocking
+76.76.2.11, ControlD Secure, Gaming
+76.76.10.11, ControlD Secure, Gaming
+
+# Cloudflare for Families — Malware blocking, still ultra-fast
+1.1.1.2, Cloudflare Families, Gaming
+1.0.0.2, Cloudflare Families, Gaming
+
+# Cloudflare Secure — Malware + adult content filter
+1.1.1.3, Cloudflare Secure, Gaming
+1.0.0.3, Cloudflare Secure, Gaming
+
+# Quad9 with EDNS Client Subnet — Better geo-routing for gaming CDNs
+9.9.9.10, Quad9 ECS, Gaming
+149.112.112.10, Quad9 ECS, Gaming
+
+# OpenDNS FamilyShield — Fast, reliable, gaming-friendly
+208.67.222.123, OpenDNS Shield, Gaming
+208.67.220.123, OpenDNS Shield, Gaming
+
+# Cisco Umbrella — Enterprise-grade, very low latency
+208.67.222.2, Cisco Umbrella, Gaming
+208.67.220.2, Cisco Umbrella, Gaming
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  IRANIAN DNS PROVIDERS
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Shecan
+10.202.10.10, Shecan, Iran
+10.202.10.11, Shecan, Iran
+
+# Shecan (Alternate)
+10.202.10.102, Shecan Alt, Iran
+10.202.10.202, Shecan Alt, Iran
+
+# Electro Team
+178.22.122.100, Electro, Iran
+
+# Radar Game
+185.51.200.2, Radar, Iran
+
+# 403 Online
+185.55.224.24, 403, Iran
+185.55.225.25, 403, Iran
+185.55.226.26, 403, Iran
+
+# Begzar
+78.157.42.100, Begzar, Iran
+78.157.42.101, Begzar, Iran
+
+# Shatel ISP
+188.75.80.80, Shatel, Iran
+188.75.90.90, Shatel, Iran
+
+# PIR DNS
+194.36.174.1, PIR DNS, Iran
+194.36.174.2, PIR DNS, Iran
+
+# Pars Online ISP
+5.202.100.100, Pars Online, Iran
+5.202.100.101, Pars Online, Iran
+
+# Host Iran
+185.141.168.130, Host Iran, Iran
+185.141.168.131, Host Iran, Iran
+
+# Fanap / Pasargad
+89.237.98.12, Fanap, Iran
+89.237.110.12, Fanap, Iran
+
+# ArvanCloud
+83.147.192.100, Arvan, Iran
+83.147.193.100, Arvan, Iran
+83.147.194.100, Arvan, Iran
+83.147.195.100, Arvan, Iran
