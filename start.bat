@@ -134,33 +134,6 @@ if not exist "dns_servers.txt" (
         echo 185.253.5.0, dns0.eu, Global
         echo 176.103.130.130, AdGuard Alt, Global
         echo 176.103.130.131, AdGuard Alt, Global
-        echo.
-        echo # ── Iran Providers ────────────────────────────────────────
-        echo 10.202.10.10, Shecan, Iran
-        echo 10.202.10.11, Shecan, Iran
-        echo 10.202.10.102, Shecan Alt, Iran
-        echo 10.202.10.202, Shecan Alt, Iran
-        echo 178.22.122.100, Electro, Iran
-        echo 185.51.200.2, Radar, Iran
-        echo 185.55.224.24, 403, Iran
-        echo 185.55.225.25, 403, Iran
-        echo 185.55.226.26, 403, Iran
-        echo 78.157.42.100, Begzar, Iran
-        echo 78.157.42.101, Begzar, Iran
-        echo 188.75.80.80, Shatel, Iran
-        echo 188.75.90.90, Shatel, Iran
-        echo 194.36.174.1, PIR DNS, Iran
-        echo 194.36.174.2, PIR DNS, Iran
-        echo 5.202.100.100, Pars Online, Iran
-        echo 5.202.100.101, Pars Online, Iran
-        echo 185.141.168.130, Host Iran, Iran
-        echo 185.141.168.131, Host Iran, Iran
-        echo 89.237.98.12, Fanap, Iran
-        echo 89.237.110.12, Fanap, Iran
-        echo 83.147.192.100, Arvan, Iran
-        echo 83.147.193.100, Arvan, Iran
-        echo 83.147.194.100, Arvan, Iran
-        echo 83.147.195.100, Arvan, Iran
     ) > dns_servers.txt
     echo  [OK] dns_servers.txt created.
     echo.
